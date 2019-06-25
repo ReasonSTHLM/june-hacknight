@@ -4,7 +4,7 @@
   "esy": {
     "build": "refmterr dune build -p #{self.name}",
     "release": {
-      "bin": ["regrep"]
+      "bin": ["regrep.exe"]
     },
     "buildEnv": {
       "ODOC_SYNTAX": "re"
