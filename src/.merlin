@@ -1,4 +1,0 @@
-EXCLUDE_QUERY_DIR
-B /Users/pontusnagy/Dev/Repo/Private/ReasonSthlm/june-hacknight/_esy/default/store/b/regrep-b9e50839/default/src/.regrep.eobjs/byte
-S .
-FLG -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs
