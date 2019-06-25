@@ -1,5 +1,6 @@
 .merlin
 _esy
+_release
 node_modules
 regrep.install
 .DS_Store

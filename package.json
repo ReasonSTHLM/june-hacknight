@@ -3,22 +3,16 @@
   "version": "0.1.0",
   "esy": {
     "build": "refmterr dune build -p #{self.name}",
-    "release": {
-      "bin": ["regrep.exe"]
-    },
-    "buildEnv": {
-      "ODOC_SYNTAX": "re"
-    }
+    "release": { "bin": [ "regrep.exe" ] },
+    "buildEnv": { "ODOC_SYNTAX": "re" }
   },
-  "scripts": {
-    "test": "esy x regrep",
-    "doc": "esy dune build @doc"
-  },
+  "scripts": { "test": "esy x regrep", "doc": "esy dune build @doc" },
   "dependencies": {
-    "@opam/dune": "*",
     "@esy-ocaml/reason": ">= 3.4.0 < 3.5.0",
-    "refmterr": "*",
-    "ocaml": "~4.6.0"
+    "@opam/dune": "*",
+    "@reason-native/pastel": "^0.2.1",
+    "ocaml": "~4.6.0",
+    "refmterr": "*"
   },
   "devDependencies": {
     "@opam/merlin": "*",

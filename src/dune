@@ -1,2 +1,3 @@
 (executable
-  (name regrep))
+  (name regrep)
+  (libraries pastel.lib))
